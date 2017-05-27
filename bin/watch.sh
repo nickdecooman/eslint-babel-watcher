@@ -18,4 +18,4 @@ do
   shift
 done
 
-./node_modules/.bin/gulp --silent --watch="${WATCH}" --node_entry="${ENTRY}"
+./node_modules/.bin/gulp --silent --cwd "./" --gulpfile "./node_modules/eslint-babel-watcher/gulpfile.js" --watch "${WATCH}" --node_entry "${ENTRY}"

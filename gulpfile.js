@@ -14,7 +14,7 @@ pe.skip(() => true);
 
 const options = minimist(process.argv.slice(2));
 const watchDir = options.watch || './src/**/*.js';
-const nodeEntry = options.node_entry || 'build/index.js';
+const nodeEntry = options.node_entry || './build/index.js';
 const port = parseInt(process.env.PORT, 10) || 3000;
 const isInteractive = process.stdout.isTTY;
 
