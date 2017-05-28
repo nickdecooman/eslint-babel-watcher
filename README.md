@@ -2,6 +2,8 @@
 Eslint-Babel-Watcher is a minimal command line tool that runs Eslint and Babel, and restarts Node upon changes. 
 It uses Gulp at its foundation and relies entirely on the `.eslint` and `.babelrc` configurations to run Eslint and Babel respectively. It has pretty formatted output too 🤡
 
+![Demo](https://cdn.pbrd.co/images/bLaYV1YvL.gif)
+
 ## Installation
 
 **NPM**
